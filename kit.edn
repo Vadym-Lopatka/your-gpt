@@ -1,0 +1,8 @@
+{:full-name "vlopatka/your-gpt"
+ :ns-name   "vlopatka.your-gpt"
+ :sanitized "vlopatka/your_gpt"
+ :name      "your-gpt"
+ :modules   {:root         "modules"
+             :repositories [{:url  "https://github.com/kit-clj/modules.git"
+                             :tag  "master"
+                             :name "kit-modules"}]}}
